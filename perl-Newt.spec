@@ -1,7 +1,7 @@
 Summary: Perl bindings for the Newt library
 Name: perl-Newt
 Version: 1.08
-Release: 34%{?dist}
+Release: 36%{?dist}
 Group: System Environment/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://search.cpan.org/~amedina/Newt-1.08/
@@ -62,6 +62,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/Newt*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.08-36
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.08-35
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 1.08-34
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
